@@ -1,0 +1,291 @@
+/*-----------------------css--------------*/
+.baptism img {
+  /*background-color: indianred;*/
+  width: 200px;
+  height: 200px;
+  float:  left;
+}
+/*.public-ministry h3{
+  color: rgb(255,20,147);   
+}*/
+.public-ministry{
+  clear: both;
+}
+.public-ministry img{
+  /*background-color: rgb(255,192,203);  pink*/ 
+  height: 300px;
+}
+.teachings-miracles img{
+  /*background-color: rgb(221,160,221); /*plum*/
+  height: 370px;
+}
+/*.teachings-miracles h3{
+  color: rgb(139,0,139); /*dark magenta*/
+}
+/*
+COLOR PALETTE
+https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
+#F7FFF7 - almost white
+#343434 - dark gray - almost black
+#2F3061 - blue dark
+#FFE66D - yellow
+#A1C6D7 - blue light
+dark blue- #2F3061
+#E0FFFF*/
+/*baby pink- rgb(253, 237, 247);*/
+
+/**************border-box fix***************/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/*-----------------GLOBAL STYLES------------------*/
+h1{   
+  font-size: 100px;
+  line-height: 1;                                                                   
+  /*color: snow;
+  margin: 0;*/
+}
+h2{
+/* color: rgb(139,0,139);
+  margin: 0;*/  
+  font-size: 45px;
+}
+h1, h2 {
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+  margin: 0;
+}
+h3{
+  font-size: 35px;
+  font-family: Montserrat sans-serif;
+  color: #2F4F4F;
+  margin-bottom: 0;
+}
+h4{
+  font-family: Montserrat sans-serif;
+  font-size: 35px;
+  margin: 0;
+}
+section{
+  margin: 2px;
+}
+header h2{
+  color: snow;
+}
+p{
+  margin: 0;
+}
+body{
+  background-color:	#ebf3fc;
+  color: #343434;
+  margin: 0;
+  padding: 0;
+  /*font-family: 'Padauk', sans-serif;*/
+  font-family: 'Montserrat', sans-serif; /*font-family: Bradley Hand, cursive;*/ 
+  font-weight: normal;
+  line-height:  1.5;
+  font-size:  14px;
+  /*font: italic small-caps bold 18px/2 cursive;*/
+}
+a{
+  color: #ff00ff;  /* Dark Navy blue*//* rgb(184,134,11); dark golden rod*/
+}
+a:focus{
+  /*outline: 1px solid black;*/
+}
+/*a:hover{
+  background: rgba(255,105,180,80%);
+  text-decoration: none; /*hotpink*/
+}*/
+a:active{
+  color: rgb(199, 83, 83);
+}
+a:visited{
+  color: #7c5f7c;   /*#BC8F8F; */
+}
+.content-wrap {
+  max-width: 800px;
+  margin: 0 auto;
+  width: 85%;
+}
+.text-align{
+  text-align: center;
+}
+/*-------------------PROFILE------------------------*/
+header{
+  background-color: #2F3061;
+  color: #F7FFF7;
+  padding: 60px;
+}
+/*------------------PROJECTS-----------------------*/
+h1,h2,h4{
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+  margin: 0;
+}
+h4::first-letter{
+  color: white;
+  background-color: black;
+  border-radius: 2px;
+  box-shadow: 3px 3px 0 red;
+  font-size: 100%;
+  padding: 6px 3px;
+  margin-right: 6px;
+  font-family: 'Limelight', cursive;
+}
+dt,dl{
+  margin: 0;
+}
+h2+p:first-of-type a{
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 50px;
+  background-color: #2c3e57;
+  color: white;
+  text-decoration: none;
+}
+h2+p:first-of-type a:focus{
+  color: yellow;
+}
+h2+p:first-of-type a:hover{
+  background-color: yellow;
+  color: black;
+}
+h2+p:first-of-type a:active{
+  color: red;
+}
+.project-item {
+  overflow: hidden;
+  padding: 10px 0;
+} 
+.project-item img {
+  float: left;
+  margin-right: 20px;
+}
+.project-item h3{
+  margin-top: 0;
+}
+.projects .btn:hover {
+  background: rgba(47, 48, 97, 80%);
+}
+/*****************projects-6********************/
+[class="bg-img2"] div:first-of-type{
+  max-height: 200px;
+  overflow: auto;
+  margin-bottom: 5px;
+  border-bottom: 2px dotted darkorange;
+}
+div {
+   max-height: 250px;
+   overflow: auto;
+   margin: 0;
+   border-bottom: 2px dotted indigo;
+}
+aside {
+  max-height: 250px;
+  padding-top: 5px;
+  overflow: auto;
+  border-bottom: 2px dotted deeppink;
+}
+[class="bg-img2"] div:last-of-type{
+  overflow: auto;
+  max-height: 250px;
+  border-bottom: 2px dotted green;
+}
+[class="bg-img2"] aside:last-of-type{
+  overflow: auto;
+  max-height: 250px;
+  border-bottom: none;
+}
+
+/****************bg images************/
+/*color palette- #DCC9B6  lightblue  #EBC3DB*/
+.bg-img{
+  background-color: #d3f1f8;
+  margin: 0;
+}
+.bg-img2{
+   background-color: #beecec;
+}
+.bg-img3{
+  background-color: #cce2eb;
+  margin: 0 ;
+}
+.crucifixion{
+  background-image: url(https://th.bing.com/th/id/R40dc7fe62eabf7d2332a02779cf8d9d1?rik=cd%2bkf2kcYvPVIw&riu=http%3a%2f%2f2.bp.blogspot.com%2f-acEKDdW71KI%2fUj6dpB07LzI%2fAAAAAAAAMWI%2fJWOi4ig-0Pk%2fs1600%2fJesus_CrossZQQ9.jpg&ehk=ERR8dQ%2fsmE4JZGipNpFqPlKJbhJLf94uB4SuuDgTOOc%3d&risl=&pid=ImgRaw);
+  background-size: cover;
+  background-position: top right;
+  padding-bottom: 100px;
+  font-weight: bolder;
+  color: snow;
+}
+.crucifixion h3{
+  color: snow;
+  margin: 0;
+}
+.crucifixion p, .resurrection p{
+  margin: 5px;
+}
+.resurrection{
+  background-image: url(https://cdn.wallpapersafari.com/46/39/wcf1kR.jpg);
+  background-size: cover;
+  background-position: top left;
+  padding-bottom: 100px;
+  font-weight: bolder;
+}
+.resurrection h3{
+  margin: 0;
+}
+.resurrection img{
+  float: right;
+}
+[href="#top"]{
+  display: block;
+  text-align: center;
+  text-decoration-line: none;
+  font-weight: bolder;
+  padding: 10px;
+}
+/****contact info*******/
+footer{
+  background: #343434;
+  color: #F7FFF7;
+}
+.contact-list{
+  list-style-type: none;
+   pading:  0;
+}
+.contact-list a{
+  padding: 15px;
+  display: inline-block;
+}
+/* Responsive------------------------------------*/
+@media screen and (min-width: 750px){
+  header,footer{
+    text-align: center;
+  }
+  .crucifixion img {
+  float: left;
+  margin-right: 20px;
+}
+  .contact-list {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 749px){
+  h1{
+  font-size: 75px;
+  line-height: 0.9;
+  }
+  h2{
+    line-height: 1;
+    font-size: 25px;
+  }
+  .contact-list a {
+    padding: 5px;
+  }
+  }
